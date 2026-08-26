@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 300" width="1600" height="300" role="img" aria-label="BSTA 374 — Analyzing Health GIS Data, Fall 2026">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1b3a70"/>
+      <stop offset="100%" stop-color="#12294f"/>
+    </linearGradient>
+    <pattern id="dots" width="46" height="46" patternUnits="userSpaceOnUse" patternTransform="rotate(-12)">
+      <circle cx="10" cy="10" r="4.5" fill="#ffffff" opacity="0.10"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="300" fill="url(#bg)"/>
+  <rect x="880" y="0" width="720" height="300" fill="url(#dots)"/>
+
+  <!-- cluster: the thing the course is about -->
+  <g fill="#9ACD32" opacity="0.9">
+    <circle cx="1152" cy="160" r="8"/>
+    <circle cx="1194" cy="188" r="8"/>
+    <circle cx="1220" cy="144" r="8"/>
+    <circle cx="1172" cy="214" r="8"/>
+    <circle cx="1244" cy="192" r="8"/>
+  </g>
+  <circle cx="1196" cy="180" r="60" fill="none" stroke="#9ACD32" stroke-width="2.5" opacity="0.55"/>
+
+  <text x="60" y="120" fill="#ffffff" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="62" font-weight="700" letter-spacing="1">BSTA 374</text>
+  <text x="60" y="180" fill="#ffffff" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="36" font-weight="600">Analyzing Health GIS Data</text>
+  <text x="62" y="228" fill="#c9d8ef" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21">Spatial data in R · Bayesian disease mapping · Interactive surveillance dashboards</text>
+
+  <text x="1540" y="120" fill="#9ACD32" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="2">FALL 2026</text>
+  <text x="1540" y="282" fill="#8fa6c9" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="19">College of Health · Lehigh University</text>
+</svg>

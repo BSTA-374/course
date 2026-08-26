@@ -1,0 +1,82 @@
+/* BSTA 374 — course landing page
+   Session-type badges + light page styling. Keep in the repo root next to index.qmd. */
+
+/* ---------------------------------------------------------- session badges */
+
+.in-person,
+.studio,
+.demo,
+.presentation,
+.no-class {
+  display: inline-block;
+  padding: 0.10em 0.55em;
+  border-radius: 0.35em;
+  font-weight: 600;
+  font-size: 0.92em;
+  line-height: 1.5;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.in-person    { background-color: #1f6feb; }  /* lecture, in person */
+.demo         { background-color: #0f7b6c; }  /* short demo, then studio */
+.studio       { background-color: #6f42c1; }  /* working studio time */
+.presentation { background-color: #2da44e; }  /* presentations */
+.no-class     { background-color: #6e7781; }  /* recess */
+
+/* ------------------------------------------------------------- page layout */
+
+.quarto-title-block .subtitle {
+  font-size: 1.05rem;
+  color: #4a5568;
+  font-weight: 400;
+}
+
+#title-block-header img,
+main > p:first-of-type img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 1.4rem;
+}
+
+h2 {
+  margin-top: 2.2rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 2px solid #e2e6ea;
+  letter-spacing: 0.04em;
+}
+
+h3 {
+  margin-top: 1.9rem;
+  font-size: 1.16rem;
+  font-weight: 600;
+}
+
+main ul {
+  margin-top: 0.35rem;
+}
+
+main li {
+  margin-bottom: 0.18rem;
+}
+
+/* resource links sit at the end of each session block */
+a[href*="github"],
+a[href*="paulamoraga"] {
+  font-weight: 500;
+}
+
+hr {
+  margin: 2.4rem 0 1.2rem;
+  border: none;
+  border-top: 1px solid #e2e6ea;
+}
+
+/* the legend line under the banner */
+.legend {
+  margin: 0.2rem 0 0.4rem;
+}
+
+@media (max-width: 600px) {
+  h3 { font-size: 1.06rem; }
+}

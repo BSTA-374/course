@@ -118,22 +118,24 @@ ul.task-list li input[type="checkbox"] {
 <li>Introduction to the syllabus; overview of course structure</li>
 <li>Introduction of each other</li>
 <li>Expectations re: exercises, the studio, and the final dashboard</li>
+<li>John Snow, 1854: the first spatial epidemiology</li>
 <li>Disease mapping, clustering, and correlation studies</li>
 <li>Point data vs.&nbsp;aggregated areal data</li>
 <li>Read Moraga Chapter 1</li>
+<li><a href="https://spatialepilehigh.github.io/introHealthGIS/">GITHUB Link</a></li>
 </ul>
 </section>
-<section id="august-27-r-review" class="level3">
-<h3 class="anchored" data-anchor-id="august-27-r-review"><span class="in-person">August 27</span> R Review</h3>
+<section id="august-27-r-review-and-your-first-interactive-map" class="level3">
+<h3 class="anchored" data-anchor-id="august-27-r-review-and-your-first-interactive-map"><span class="in-person">August 27</span> R Review — and Your First Interactive Map</h3>
 <ul>
 <li>RStudio projects, paths, and why we never use <code>setwd()</code></li>
 <li>Vectors, data frames, tibbles; reading and writing CSV files</li>
-<li><code>dplyr</code>: filter, mutate, group_by, summarise, joins</li>
-<li>The grammar of <code>ggplot2</code>: data, aesthetics, geoms, facets</li>
+<li><code>dplyr</code>: <code>filter</code>, <code>mutate</code>, <code>group_by</code>, <code>summarise</code>, joins</li>
+<li>The grammar of <code>ggplot2</code>: scatterplots, line graphs, facets</li>
 <li>Writing a small function; installing packages; reading an error message</li>
-<li>Your first map with <code>geom_sf()</code></li>
+<li>Your first map: <code>geom_sf()</code>, then an interactive one with <code>mapview</code> and <code>leaflet</code></li>
 <li>In-class exercise: a short self-check — if any of it is unfamiliar, come see me this week</li>
-<li>Software setup: R, RStudio</li>
+<li>Software setup: R, RStudio, <code>sf</code>, Git &amp; GitHub</li>
 <li><a href="https://spatialepilehigh.github.io/rReview/">GITHUB Link</a></li>
 </ul>
 </section>
@@ -508,7 +510,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/BSTA-374\.github\.io\/course\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

@@ -29,20 +29,22 @@ There are **no quizzes and no exams**. Bring a laptop to every session.
 -   Introduction to the syllabus; overview of course structure
 -   Introduction of each other
 -   Expectations re: exercises, the studio, and the final dashboard
+-   John Snow, 1854: the first spatial epidemiology
 -   Disease mapping, clustering, and correlation studies
 -   Point data vs. aggregated areal data
 -   Read Moraga Chapter 1
+-   [GITHUB Link](https://spatialepilehigh.github.io/introHealthGIS/)
 
-### [August 27]{.in-person} R Review
+### [August 27]{.in-person} R Review --- and Your First Interactive Map
 
 -   RStudio projects, paths, and why we never use `setwd()`
 -   Vectors, data frames, tibbles; reading and writing CSV files
--   `dplyr`: filter, mutate, group_by, summarise, joins
--   The grammar of `ggplot2`: data, aesthetics, geoms, facets
+-   `dplyr`: `filter`, `mutate`, `group_by`, `summarise`, joins
+-   The grammar of `ggplot2`: scatterplots, line graphs, facets
 -   Writing a small function; installing packages; reading an error message
--   Your first map with `geom_sf()`
+-   Your first map: `geom_sf()`, then an interactive one with `mapview` and `leaflet`
 -   In-class exercise: a short self-check --- if any of it is unfamiliar, come see me this week
--   Software setup: R, RStudio
+-   Software setup: R, RStudio, `sf`, Git & GitHub
 -   [GITHUB Link](https://spatialepilehigh.github.io/rReview/)
 
 ### [September 1]{.in-person} Spatial Data in R
@@ -257,7 +259,6 @@ Weeks 11--15 are a studio. Each Tuesday opens with a short demonstration; Thursd
 
 \| **last updated August 26 2026** \| [erd424\@lehigh.edu](mailto:erd424@lehigh.edu)
 
-```{=html}
 <!-- Topic schedule only. Exercise deadlines, milestone points, the dataset
      proposal, grading and course policies live in the syllabus, so that this
      page stays reusable from year to year.
@@ -287,4 +288,3 @@ Weeks 11--15 are a studio. Each Tuesday opens with a short demonstration; Thursd
        Nov 17  uploadSpatioTemporal
        Nov 24  prospectiveSurveillance
 -->
-```

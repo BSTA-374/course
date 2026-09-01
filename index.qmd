@@ -29,30 +29,24 @@ There are **no quizzes and no exams**. Bring a laptop to every session.
 -   Introduction to the syllabus; overview of course structure
 -   Introduction of each other
 -   Expectations re: exercises, the studio, and the final dashboard
--   John Snow, 1854: the first spatial epidemiology
--   Disease mapping, clustering, and correlation studies
--   Point data vs. aggregated areal data
--   Read Moraga Chapter 1
 -   [GITHUB Link](https://spatialepilehigh.github.io/introHealthGIS/)
 
-### [August 27]{.in-person} R Review --- and Your First Interactive Map
+### [August 27, September 1]{.in-person} R Review --- and Your First Interactive Map
 
--   RStudio projects, paths, and why we never use `setwd()`
+-   Kinds of spatial data: Point data vs. aggregated areal data
+-   Disease mapping, clustering, and correlation studies
 -   Vectors, data frames, tibbles; reading and writing CSV files
 -   `dplyr`: `filter`, `mutate`, `group_by`, `summarise`, joins
 -   The grammar of `ggplot2`: scatterplots, line graphs, facets
--   Writing a small function; installing packages; reading an error message
--   Your first map: `geom_sf()`, then an interactive one with `mapview` and `leaflet`
--   In-class exercise: a short self-check --- if any of it is unfamiliar, come see me this week
--   Software setup: R, RStudio, `sf`, Git & GitHub
--   [GITHUB Link](https://spatialepilehigh.github.io/rReview/)
-
-### [September 1]{.in-person} Spatial Data in R
-
--   Three kinds of spatial data: areal (lattice), geostatistical, and point patterns
 -   Simple features and the `sf` package; shapefiles and their component files
+-   John Snow, 1854: the first spatial epidemiology
+-   Your first map: `geom_sf()`; colour scales and what makes one defensible
+-   Maps in layers: points over polygons; joining a data table to a boundary file
+-   Software setup: R, RStudio.
 -   Geographic vs. projected CRS; `proj4` strings and EPSG codes
+-   Read Moraga Chapter 1
 -   Introduction to Exercise 1
+-   [GITHUB Link](https://spatialepilehigh.github.io/rReview/)
 
 ### [September 3]{.in-person} Thematic Cartography
 

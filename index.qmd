@@ -10,7 +10,7 @@ editor: visual
 
 ![](banner.svg)
 
-**Session type:** [In Person]{.in-person} \| [Demo + Studio]{.demo} \| [Studio]{.studio} \| [Presentations]{.presentation} \| [No Class]{.no-class}
+**Session type:** [In Person]{.in-person} \| [Off-line]{.off-line} \| [Demo + Studio]{.demo} \| [Studio]{.studio} \| [Presentations]{.presentation} \| [No Class]{.no-class}
 
 **Tuesdays & Thursdays, 12:10--13:25 \| Rauch Business Center 137**
 
@@ -29,7 +29,7 @@ There are **no quizzes and no exams**. Bring a laptop to every session.
 -   Introduction to the syllabus; overview of course structure
 -   Introduction of each other
 -   Expectations re: exercises, the studio, and the final dashboard
--   [GITHUB Link](https://spatialepilehigh.github.io/introHealthGIS/)
+
 
 ### [August 27, September 1]{.in-person} R Review --- and Your First Interactive Map
 
@@ -46,7 +46,7 @@ There are **no quizzes and no exams**. Bring a laptop to every session.
 -   Geographic vs. projected CRS; `proj4` strings and EPSG codes
 -   Read Moraga Chapter 1
 -   Introduction to Exercise 1
--   [GITHUB Link](https://spatialepilehigh.github.io/rReview/)
+-   [GITHUB Link](https://BSTA-374.github.io/RreviewAndMaps/)
 
 ### [September 3]{.in-person} Thematic Cartography
 
@@ -136,7 +136,7 @@ There are **no quizzes and no exams**. Bring a laptop to every session.
 -   In-class exercise: building a LISA cluster map
 -   Introduction to Exercise 5
 
-### [October 13]{.in-person} Cluster Detection
+### [October 13]{.off-line} Cluster Detection
 
 -   The Kulldorff spatial scan statistic
 -   Likelihood ratios, scanning windows, and Monte Carlo inference

@@ -30,7 +30,6 @@ There are **no quizzes and no exams**. Bring a laptop to every session.
 -   Introduction of each other
 -   Expectations re: exercises, the studio, and the final dashboard
 
-
 ### [August 27, September 1]{.in-person} R Review --- and Your First Interactive Map
 
 -   Kinds of spatial data: Point data vs. aggregated areal data
@@ -55,6 +54,8 @@ There are **no quizzes and no exams**. Bring a laptop to every session.
 -   Worked example: SID74 sudden infant deaths, North Carolina
 -   In-class exercise: mapping the same rates four ways
 -   Read Moraga Chapter 2
+-   [GITHUB Link](https://BSTA-374.github.io/thematicMapping/)
+
 
 ### [September 8]{.in-person} Version Control with Git & GitHub
 
@@ -253,6 +254,7 @@ Weeks 11--15 are a studio. Each Tuesday opens with a short demonstration; Thursd
 
 \| **last updated August 26 2026** \| [erd424\@lehigh.edu](mailto:erd424@lehigh.edu)
 
+```{=html}
 <!-- Topic schedule only. Exercise deadlines, milestone points, the dataset
      proposal, grading and course policies live in the syllabus, so that this
      page stays reusable from year to year.
@@ -282,3 +284,4 @@ Weeks 11--15 are a studio. Each Tuesday opens with a short demonstration; Thursd
        Nov 17  uploadSpatioTemporal
        Nov 24  prospectiveSurveillance
 -->
+```

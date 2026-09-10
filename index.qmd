@@ -66,7 +66,7 @@ There are **no quizzes and no exams**. Bring a laptop to every session.
 -   Publishing to GitHub Pages
 -   Read Moraga Chapter 11 *(R Markdown only --- Quarto and GitHub Pages come from posted notes)*
 -   Introduction to Exercise 2
--   [GITHUB Link](https://BSTA-374.github.io/github/*)
+-   [GITHUB Link](https://BSTA-374.github.io/github/)
 
 
 

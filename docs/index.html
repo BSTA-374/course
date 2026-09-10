@@ -161,7 +161,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Publishing to GitHub Pages</li>
 <li>Read Moraga Chapter 11 <em>(R Markdown only — Quarto and GitHub Pages come from posted notes)</em></li>
 <li>Introduction to Exercise 2</li>
-<li><a href="https://BSTA-374.github.io/github/*">GITHUB Link</a></li>
+<li><a href="https://BSTA-374.github.io/github/">GITHUB Link</a></li>
 </ul>
 </section>
 <section id="september-15-point-patterns" class="level3">
@@ -498,7 +498,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/BSTA-374\.github\.io\/course\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

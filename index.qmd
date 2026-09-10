@@ -47,7 +47,7 @@ There are **no quizzes and no exams**. Bring a laptop to every session.
 -   Introduction to Exercise 1
 -   [GITHUB Link](https://BSTA-374.github.io/RreviewAndMaps/)
 
-### [September 3]{.in-person} Thematic Cartography
+### [September 3,8]{.in-person} Thematic Cartography
 
 -   Static and interactive maps: `ggplot2`, `tmap`, `leaflet`, `mapview`
 -   Class intervals, color scales, and what they hide
@@ -56,20 +56,19 @@ There are **no quizzes and no exams**. Bring a laptop to every session.
 -   Read Moraga Chapter 2
 -   [GITHUB Link](https://BSTA-374.github.io/thematicMapping/)
 
-
-### [September 8]{.in-person} Version Control with Git & GitHub
+### [September 8, 10]{.in-person} Version Control with Git & GitHub
 
 -   Repositories, commits, branches, remotes
 -   Why your future self needs this
 -   In-class exercise: create and push your course repository
-
-### [September 10]{.in-person} Reproducible Reporting
-
 -   R Markdown: YAML, chunks and their options, figures, `knitr::kable()` tables
 -   Moving the same document to Quarto
 -   Publishing to GitHub Pages
 -   Read Moraga Chapter 11 *(R Markdown only --- Quarto and GitHub Pages come from posted notes)*
 -   Introduction to Exercise 2
+-   [GITHUB Link](https://BSTA-374.github.io/github/*)
+
+
 
 ### [September 15]{.in-person} Point Patterns
 

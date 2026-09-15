@@ -68,15 +68,14 @@ There are **no quizzes and no exams**. Bring a laptop to every session.
 -   Introduction to Exercise 2
 -   [GITHUB Link](https://BSTA-374.github.io/github/)
 
-
-
 ### [September 15]{.in-person} Point Patterns
 
 -   Complete spatial randomness as a null model
 -   Quadrat analysis and the variance-mean ratio
 -   Nearest-neighbor statistics
 -   Ripley's *K* function; kernel density estimation and bandwidth choice
--   Read posted notes; R&Y Chapter 2
+-   [GITHUB Link](https://bsta-374.github.io/pointpattern/)
+
 
 ### [September 17]{.in-person} Point Patterns in Space--Time
 

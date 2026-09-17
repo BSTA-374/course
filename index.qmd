@@ -76,18 +76,16 @@ There are **no quizzes and no exams**. Bring a laptop to every session.
 -   Ripley's *K* function; kernel density estimation and bandwidth choice
 -   [GITHUB Link](https://bsta-374.github.io/pointpattern/)
 
-
 ### [September 17]{.in-person} Point Patterns in Space--Time
 
 -   The space-time *K* function; space-time interaction
 -   Volume rendering of space-time case data
--   Positional and temporal uncertainty, and how it propagates
--   Read Delmelle et al. (2014)
--   In-class exercise: KDE of case locations, varying the bandwidth
--   Introduction to Exercise 3 *(worked on over Weeks 4--5)*
+-   (if time allows) Introduction to Exercise 3 *(worked on over Weeks 4--5)*
+-   [GITHUB Link]((https://BSTA-374.github.io/space-timePointPattern/))
 
 ### [September 22]{.in-person} Aggregated Data and Incidence Rates
 
+-   Exercise 3 demo.
 -   From cases to counts: aggregating points into areas
 -   Incidence, prevalence, and mortality rates; person-time denominators
 -   Crude rates; direct and indirect standardization

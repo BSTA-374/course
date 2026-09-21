@@ -68,7 +68,7 @@ There are **no quizzes and no exams**. Bring a laptop to every session.
 -   Introduction to Exercise 2
 -   [GITHUB Link](https://BSTA-374.github.io/github/)
 
-### [September 15]{.in-person} Point Patterns
+### [September 15, 17, 22]{.in-person} Point Patterns
 
 -   Complete spatial randomness as a null model
 -   Quadrat analysis and the variance-mean ratio
@@ -76,30 +76,21 @@ There are **no quizzes and no exams**. Bring a laptop to every session.
 -   Ripley's *K* function; kernel density estimation and bandwidth choice
 -   [GITHUB Link](https://bsta-374.github.io/pointpattern/)
 
-### [September 17]{.in-person} Point Patterns in Space--Time
+### [September 22]{.in-person} Point Patterns in Space--Time
 
 -   The space-time *K* function; space-time interaction
 -   Volume rendering of space-time case data
--   (if time allows) Introduction to Exercise 3 *(worked on over Weeks 4--5)*
--   [GITHUB Link]((https://BSTA-374.github.io/space-timePointPattern/))
+-   [GITHUB Link](https://BSTA-374.github.io/space-timePointPattern/)
 
-### [September 22]{.in-person} Aggregated Data and Incidence Rates
-
--   Exercise 3 demo.
+### [September 24]{.in-person} Aggregated Data and Incidence Rates
 -   From cases to counts: aggregating points into areas
 -   Incidence, prevalence, and mortality rates; person-time denominators
 -   Crude rates; direct and indirect standardization
 -   Expected counts from population strata; the SIR/SMR
--   Read Moraga 5.2
-
-### [September 24]{.in-person} What Goes Wrong with Areal Data
-
 -   Rate instability and the small-numbers problem
--   Why the extreme values on a raw SIR map are usually the small areas
 -   MAUP: scale and zoning effects
--   The misaligned data problem; the ecological fallacy
 -   In-class exercise: map raw SIRs, then map their population size --- compare
--   Read Moraga 5.5
+-   Read Moraga 5.2, 5.5
 
 ### [September 29]{.in-person} Spatial Weights and Moran's I
 

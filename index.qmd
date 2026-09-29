@@ -76,32 +76,32 @@ There are **no quizzes and no exams**. Bring a laptop to every session.
 -   Ripley's *K* function; kernel density estimation and bandwidth choice
 -   [GITHUB Link](https://bsta-374.github.io/pointpattern/)
 
-### [September 22]{.in-person} Point Patterns in Space--Time
+### [September 22,24]{.in-person} Point Patterns in Space--Time
 
 -   The space-time *K* function; space-time interaction
 -   Volume rendering of space-time case data
 -   [GITHUB Link](https://BSTA-374.github.io/space-timePointPattern/)
 
-### [September 24]{.in-person} Aggregated Data and Incidence Rates
+### [September 29]{.in-person} Aggregated Data and Incidence Rates
+
 -   From cases to counts: aggregating points into areas
 -   Incidence, prevalence, and mortality rates; person-time denominators
 -   Crude rates; direct and indirect standardization
 -   Expected counts from population strata; the SIR/SMR
+-   Read Moraga 5.2
+-   [GITHUB Link](https://BSTA-374.github.io/AggregatedDataIncidenceRates/)
+
+### [October 1]{.in-person} Small Numbers and Spatial Weights
+
 -   Rate instability and the small-numbers problem
--   MAUP: scale and zoning effects
--   In-class exercise: map raw SIRs, then map their population size --- compare
--   Read Moraga 5.2, 5.5
-
-### [September 29]{.in-person} Spatial Weights and Moran's I
-
 -   Defining neighbors: contiguity (rook, queen), distance bands, *k* nearest
 -   Row-standardized weights and why the choice matters
+-   Read Moraga 5.5
+
+### [October 6]{.in-person} Global Spatial Autocorrelation
+
 -   Moran's I: definition, expectation under the null, interpretation
 -   Inference by permutation vs. the normal approximation
--   Read Moraga 5.1; R&Y Chapter 3
-
-### [October 1]{.in-person} Reading and Using Global Statistics
-
 -   The Moran scatterplot and its four quadrants
 -   Join-count statistics for binary outcomes; Geary's C
 -   What a significant Moran's I does *not* tell you
@@ -109,20 +109,16 @@ There are **no quizzes and no exams**. Bring a laptop to every session.
 -   *Preview: what if we recompute Moran's I every month? --- see November 24*
 -   Introduction to Exercise 4
 
-### [October 6]{.in-person} Local Spatial Statistics
+### [October 8]{.in-person} Local Statistics and Hotspots
 
 -   From global to local: decomposing Moran's I
 -   Local indicators of spatial association (LISA)
 -   Cluster types: high-high, low-low, and the spatial outliers
--   Read R&Y Chapter 4
-
-### [October 8]{.in-person} Hotspots and Multiple Testing
-
 -   Getis-Ord Gi\* and hotspot mapping
 -   Multiple testing and false discovery rate
--   Reading a LISA cluster map honestly
--   In-class exercise: building a LISA cluster map
+-   In-class exercise: building and reading a LISA cluster map
 -   Introduction to Exercise 5
+
 
 ### [October 13]{.off-line} Cluster Detection
 

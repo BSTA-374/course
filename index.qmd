@@ -82,7 +82,7 @@ There are **no quizzes and no exams**. Bring a laptop to every session.
 -   Volume rendering of space-time case data
 -   [GITHUB Link](https://BSTA-374.github.io/space-timePointPattern/)
 
-### [September 29]{.in-person} Aggregated Data and Incidence Rates
+### [September 29, October 1]{.in-person} Aggregated Data and Incidence Rates
 
 -   From cases to counts: aggregating points into areas
 -   Incidence, prevalence, and mortality rates; person-time denominators
@@ -91,23 +91,19 @@ There are **no quizzes and no exams**. Bring a laptop to every session.
 -   Read Moraga 5.2
 -   [GITHUB Link](https://BSTA-374.github.io/AggregatedDataIncidenceRates/)
 
-### [October 1]{.in-person} Small Numbers and Spatial Weights
-
--   Rate instability and the small-numbers problem
--   Defining neighbors: contiguity (rook, queen), distance bands, *k* nearest
--   Row-standardized weights and why the choice matters
--   Read Moraga 5.5
 
 ### [October 6]{.in-person} Global Spatial Autocorrelation
 
+-   Rate instability and the small-numbers problem
+-   Building neighborhood
 -   Moran's I: definition, expectation under the null, interpretation
 -   Inference by permutation vs. the normal approximation
 -   The Moran scatterplot and its four quadrants
--   Join-count statistics for binary outcomes; Geary's C
--   What a significant Moran's I does *not* tell you
--   In-class exercise: building and reading a Moran scatterplot
--   *Preview: what if we recompute Moran's I every month? --- see November 24*
 -   Introduction to Exercise 4
+-   Read Moraga 5.5
+-   [GITHUB Link](https://BSTA-374.github.io/MoransI/)
+
+
 
 ### [October 8]{.in-person} Local Statistics and Hotspots
 

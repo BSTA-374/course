@@ -110,24 +110,21 @@ There are **no quizzes and no exams**. Bring a laptop to every session.
 -   From global to local: decomposing Moran's I
 -   Local indicators of spatial association (LISA)
 -   Cluster types: high-high, low-low, and the spatial outliers
--   Getis-Ord Gi\* and hotspot mapping
--   Multiple testing and false discovery rate
--   In-class exercise: building and reading a LISA cluster map
--   Introduction to Exercise 5
-
+-   Challenge: building and reading a LISA cluster map
+-   Introduction to Exercise 5 (video will be posted)
+-   [GITHUB Link](https://BSTA-374.github.io/localMoran/)
 
 ### [October 13]{.off-line} Cluster Detection
 
--   The Kulldorff spatial scan statistic
--   Likelihood ratios, scanning windows, and Monte Carlo inference
--   Read R&Y Chapter 5
+-   Work on Assignment 4 and 5.
+-   Identify potential sources of data for your project. 
 
 ### [October 15]{.in-person} SaTScan in Practice
 
--   Spatial, temporal, and space-time scans
--   Poisson vs. Bernoulli models; choosing the maximum window
--   In-class exercise: running and interpreting a space-time scan
--   Introduction to Exercise 6
+-   The Kulldorff spatial scan statistic
+-   Likelihood ratios, scanning windows, and Monte Carlo inference
+-   [GITHUB Link](https://BSTA-374.github.io/satscan/)
+
 
 ### [October 20]{.in-person} Bayesian Inference
 

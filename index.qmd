@@ -119,21 +119,21 @@ There are **no quizzes and no exams**. Bring a laptop to every session.
 -   Work on Assignment 4 and 5.
 -   Identify potential sources of data for your project. 
 
-### [October 15]{.in-person} SaTScan in Practice
+### [October 15, 20]{.in-person} SaTScan in Practice
 
 -   The Kulldorff spatial scan statistic
 -   Likelihood ratios, scanning windows, and Monte Carlo inference
 -   [GITHUB Link](https://BSTA-374.github.io/satscan/)
 
 
-### [October 20]{.in-person} Bayesian Inference
+### [October 22]{.in-person} Bayesian Inference
 
 -   Likelihood, priors, hyperpriors, posteriors
 -   Hierarchical models and shrinkage; why smoothing helps with small numbers
 -   MCMC and why we are not using it: cost and convergence
 -   Read Moraga 3.1
 
-### [October 22]{.in-person} INLA and the R-INLA Package
+### [October 27]{.in-person} INLA and the R-INLA Package
 
 -   Latent Gaussian models; what INLA approximates and why it is fast
 -   `inla()`: formula, `f()` random effects, `family`, `control.compute` (DIC, WAIC)
@@ -142,7 +142,7 @@ There are **no quizzes and no exams**. Bring a laptop to every session.
 -   Read Moraga 3.2 and Chapter 4
 -   Studio rubric and dataset proposal instructions distributed
 
-### [October 27]{.in-person} Bayesian Disease Mapping
+### [October 29]{.in-person} Bayesian Disease Mapping
 
 -   Poisson model for counts; the BYM model and the CAR/ICAR prior
 -   BYM2: interpretable precision and mixing parameters, PC priors
@@ -150,7 +150,7 @@ There are **no quizzes and no exams**. Bring a laptop to every session.
 -   Mapping relative risks *and* exceedance probabilities
 -   Read Moraga 5.3 and Chapter 6
 
-### [October 29]{.in-person} Spatio-temporal Disease Mapping
+### [November 3]{.in-person} Spatio-temporal Disease Mapping
 
 -   Bernardinelli parametric trend: area-specific time slopes
 -   Non-parametric alternatives (RW1, RW2); the four space-time interaction types
@@ -161,21 +161,21 @@ There are **no quizzes and no exams**. Bring a laptop to every session.
 
 ## THE STUDIO
 
-Weeks 11--15 are a studio. Each Tuesday opens with a short demonstration; Thursdays are working time. You drive your own build, use the documentation, and bring specific problems to class. Milestones are demonstrated **live in class** --- a milestone is a working increment of your app, not a write-up about it.
+From November 5, the course is a studio. Each Thursday is a short demonstration; the following Tuesday is working time, and that milestone is demonstrated in class. You drive your own build, use the documentation, and bring specific problems to class. Milestones are demonstrated **live in class** --- a milestone is a working increment of your app, not a write-up about it.
 
-### [November 3]{.demo} Demo: from R Markdown to `flexdashboard`
+### [November 5]{.demo} Demo: from R Markdown to `flexdashboard`
 
 -   Column layout, `###` panels, `data-width`
 -   Embedding `leaflet` maps, `DT` tables, `ggplot2` charts
 -   Worked example: global PM~2.5~ air pollution
 -   Read Moraga Chapter 12
 
-### [November 5]{.studio} Studio --- M1: static dashboard
+### [November 10]{.studio} Studio --- M1: static dashboard
 
 -   Working studio time. Bring specific problems.
 -   **M1 demonstrated in class:** a `flexdashboard` that loads your data and displays at least one map and one time series
 
-### [November 10]{.demo} Demo: Introduction to Shiny
+### [November 12]{.demo} Demo: Introduction to Shiny
 
 -   `ui` / `server` structure; `shinyApp()`
 -   Inputs (`selectInput`, `sliderInput`, `fileInput`) and `render*()` outputs
@@ -183,35 +183,31 @@ Weeks 11--15 are a studio. Each Tuesday opens with a short demonstration; Thursd
 -   `runtime: shiny` in a dashboard YAML header
 -   Read Moraga Chapters 13--14
 
-### [November 12]{.studio} Studio --- M2: reactive app
+### [November 17]{.studio} Studio --- M2: reactive app
 
 -   Working studio time. Bring specific problems.
--   **M2 demonstrated in class:** the user selects a region and a time period, and the maps and summaries respond
+-   **M2 demonstrated in class:** the user selects a region and a time period --- a dropdown, a slider, or an animation --- and the maps and summaries respond
 
-### [November 17]{.demo} Demo: Uploading Spatio-temporal Data
+### [November 19]{.demo} Demo: Uploading Spatio-temporal Data
 
 -   Reading an uploaded CSV plus a full shapefile (`.shp`, `.dbf`, `.shx`, `.prj`)
 -   `dygraphs` time series + `leaflet` choropleth, driven by variable and year dropdowns
 -   Handling missing inputs --- where student apps break
 -   Read Moraga Chapter 15 *(the closest thing to your project)*
 
-### [November 19]{.studio} Studio --- M3: spatio-temporal handling
 
--   Working studio time.
--   **M3 demonstrated in class:** the app steps through spatio-temporal data and displays modeled rates with their uncertainty
-
-### [November 24]{.demo} Prospective Surveillance --- M4: monitoring panel
+### [November 24]{.demo} Prospective Surveillance --- M3: monitoring panel
 
 -   Retrospective analysis vs. *prospective* monitoring: why repeated testing changes the problem
 -   Statistical process control and the CUSUM chart: the cumulative sum, the reference value *k*, the decision interval *h*, average run length
--   Monitoring Moran's I or an SMR over time *(as previewed on October 1)*
+-   Monitoring Moran's I or an SMR over time 
 -   Other routes: exceedance probabilities, space-time scans on recent periods, period-over-period comparison
 -   Flagging rules: thresholds, false alarms, and detection speed
 -   SpatialEpiApp: R-INLA risk estimates and SaTScan clusters behind a point-and-click interface --- the reference implementation
 -   Deployment and documentation
--   *CUSUM is covered properly here; using it in your app is optional --- M4 accepts any defensible monitoring display*
+-   *CUSUM is covered properly here; using it in your app is optional --- M3 accepts any defensible monitoring display*
 -   Read R&Y Chapters 7--8; Moraga Chapter 16
--   **M4 demonstrated in class**
+-   **M3 demonstrated in class:** a monitoring panel with an explicit, defensible flagging rule
 
 ### [November 26]{.no-class} Thanksgiving Recess --- No Class
 
@@ -228,7 +224,7 @@ Weeks 11--15 are a studio. Each Tuesday opens with a short demonstration; Thursd
 
 ------------------------------------------------------------------------
 
-\| **last updated August 26 2026** \| [erd424\@lehigh.edu](mailto:erd424@lehigh.edu)
+\| **last updated October 19 2026** \| [erd424\@lehigh.edu](mailto:erd424@lehigh.edu)
 
 ```{=html}
 <!-- Topic schedule only. Exercise deadlines, milestone points, the dataset
@@ -251,13 +247,11 @@ Weeks 11--15 are a studio. Each Tuesday opens with a short demonstration; Thursd
        Oct 8   hotspotsMultipleTesting
        Oct 13  clusterDetection
        Oct 15  satscanInPractice
-       Oct 20  bayesianInference
-       Oct 22  inlaAndRINLA
+       Oct 22  bayesianInference, inlaAndRINLA
        Oct 27  bayesianDiseaseMapping
        Oct 29  spatioTemporalMapping
        Nov 3   flexdashboardDemo
        Nov 10  shinyDemo
-       Nov 17  uploadSpatioTemporal
        Nov 24  prospectiveSurveillance
 -->
 ```

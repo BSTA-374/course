@@ -119,21 +119,23 @@ There are **no quizzes and no exams**. Bring a laptop to every session.
 -   Work on Assignment 4 and 5.
 -   Identify potential sources of data for your project. 
 
-### [October 15, 20]{.in-person} SaTScan in Practice
+### [October 15, 20, 22]{.in-person} SaTScan in Practice
 
 -   The Kulldorff spatial scan statistic
 -   Likelihood ratios, scanning windows, and Monte Carlo inference
 -   [GITHUB Link](https://BSTA-374.github.io/satscan/)
 
 
-### [October 22]{.in-person} Bayesian Inference
+### [October 27, 29]{.in-person} Bayesian Inference
 
--   Likelihood, priors, hyperpriors, posteriors
+-   Likelihood, priors, posteriors
 -   Hierarchical models and shrinkage; why smoothing helps with small numbers
--   MCMC and why we are not using it: cost and convergence
+-   Poisson model for counts; the BYM model and the CAR/ICAR prior
+-   BYM2: interpretable precision and mixing parameters, PC priors
 -   Read Moraga 3.1
+-   [GITHUB Link](https://BSTA-374.github.io/bayesianMapping/)
 
-### [October 27]{.in-person} INLA and the R-INLA Package
+### [November 5]{.in-person} INLA and the R-INLA Package
 
 -   Latent Gaussian models; what INLA approximates and why it is fast
 -   `inla()`: formula, `f()` random effects, `family`, `control.compute` (DIC, WAIC)
@@ -141,11 +143,6 @@ There are **no quizzes and no exams**. Bring a laptop to every session.
 -   Worked example: mortality across 12 hospitals --- posterior summaries, credible intervals, and exceedance probabilities
 -   Read Moraga 3.2 and Chapter 4
 -   Studio rubric and dataset proposal instructions distributed
-
-### [October 29]{.in-person} Bayesian Disease Mapping
-
--   Poisson model for counts; the BYM model and the CAR/ICAR prior
--   BYM2: interpretable precision and mixing parameters, PC priors
 -   Case study: lip cancer in Scottish males, 1975--1980 (`SpatialEpi`, `poly2nb()`, `nb2INLA()`)
 -   Mapping relative risks *and* exceedance probabilities
 -   Read Moraga 5.3 and Chapter 6
